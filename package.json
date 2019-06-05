@@ -1,0 +1,27 @@
+{
+  "name": "simplex-api",
+  "version": "0.0.1",
+  "description": "API do projeto Simplex",
+  "main": "start.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node start.js"
+  },
+  "author": "Matheus Henrique Conceição Bonore",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0",
+    "simple-simplex": "^1.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-node8": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-node8": "^1.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
